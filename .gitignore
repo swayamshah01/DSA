@@ -1,0 +1,11 @@
+# Compiled files
+*.exe
+*.out
+*.o
+*.class
+*.obj
+
+# Other build artifacts
+bin/
+build/
+*.dSYM/

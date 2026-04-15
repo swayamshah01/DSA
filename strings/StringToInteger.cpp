@@ -1,6 +1,7 @@
 #include <iostream>
 #include <string>
 #include <climits>
+//leetcode : 8. String to Integer (atoi)
 using namespace std;
 class Solution {
 public:
@@ -36,7 +37,7 @@ public:
 
 int main() {
     Solution solution;
-    string input = "   -42";
+    string input = "   -042";
     int output = solution.myAtoi(input);
     cout << "Output: " << output << endl; // Output: -42
     return 0;

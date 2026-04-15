@@ -8,6 +8,8 @@
 // "pq", "pqp", "pqpq", "qp", "qpq", "pqs", "qs"  
 // Total = 7.
 
+// example 2:
+//leetcode  : 992. Subarrays with K Different Integers
 #include<iostream>
 #include<unordered_map>
 using namespace std;
@@ -20,7 +22,7 @@ int atmost(string s,int k){
     for(int r=0;r<s.size();r++){
         freq[s[r]]++;  
 
-        while(freq.size() > k){  
+        while(freq.size() > k){   //map size always gives the size of distinct characters in the current window
             freq[s[l]]--;         
             if(freq[s[l]] == 0){
                 freq.erase(s[l]);

@@ -1,3 +1,7 @@
+//leetcode : 1614. Maximum Nesting Depth of the Parentheses
+#include <iostream>
+#include <string>
+using namespace std;
 class Solution {
 public:
     int maxDepth(string s) {
@@ -13,3 +17,9 @@ public:
         return maxlen;
     }
 };
+int main(){
+    Solution s;
+    string str="(1+(2*3)+((8)/4))+1";
+    cout<<s.maxDepth(str)<<endl;
+    return 0;
+}

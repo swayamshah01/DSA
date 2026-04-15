@@ -20,6 +20,7 @@
 // };
 //this is basic logic and it will clear some cases but will fail in extreme cases like "ab" and "aa" as both have 1 duplicate but they are not isomorphic so we need to check the mapping of characters as well
 
+//leetcode : 205. Isomorphic Strings
 #include <iostream>
 #include <string>
 #include <unordered_map>

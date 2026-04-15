@@ -1,3 +1,7 @@
+#include <iostream>
+#include <string>
+using namespace std;
+//leetcode : 13. Roman to Integer
 class Solution {
 public:
     int romanToInt(string s) {
@@ -21,3 +25,9 @@ public:
         return total;
     }
 };
+int main() {
+    Solution s;
+    string str = "MCMXCIV";
+    cout << s.romanToInt(str) << endl; // Output should be 1994
+    return 0;
+}

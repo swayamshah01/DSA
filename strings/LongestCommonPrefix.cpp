@@ -3,6 +3,7 @@
 #include <string>
 using namespace std;
 
+//leetcode : 14. Longest Common Prefix
     string longestCommonPrefix(vector<string>& strs) {
         if (strs.empty()) return "";
 
